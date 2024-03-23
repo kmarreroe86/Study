@@ -1,9 +1,9 @@
-package synchronization;
+package linkedinlearning.synchronization;
 
 public class DeadlockExample {
 
-	public static Object spoon = new Object();
-	public static Object bowl = new Object();
+	public static final Object spoon = new Object();
+	public static final Object bowl = new Object();
 
 	public static void main(String args[]) {
 

@@ -10,7 +10,6 @@ import java.util.Stack;
 public class JobsityPractice {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		String s1 = "AAABBB";
 		String s2 = "AAAA";

@@ -1,4 +1,4 @@
-package threads;
+package linkedinlearning.threads;
 
 public class RunnableExample {
 

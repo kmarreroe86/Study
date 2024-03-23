@@ -1,4 +1,4 @@
-package collections;
+package linkedinlearning.collections;
 
 import java.util.LinkedList;
 

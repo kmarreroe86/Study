@@ -3,7 +3,7 @@ package algorithms;
 public class LinearSearch {
     public static void main(String[] args) {
         int[] a = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
-        System.out.println(linearSearch(a, 12));
+        System.out.println(linearSearch(a, 9));
     }
 
     static int linearSearch(int[] list, int target) {

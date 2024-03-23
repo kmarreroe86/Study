@@ -1,5 +1,5 @@
 
-package synchronization;
+package linkedinlearning.synchronization;
 
 public class Users {        
     

@@ -1,4 +1,4 @@
-package ioStreams;
+package linkedinlearning.ioStreams;
 
 import java.io.BufferedReader;
 import java.io.File;

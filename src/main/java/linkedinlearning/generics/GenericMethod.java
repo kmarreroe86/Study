@@ -13,7 +13,8 @@ public class GenericMethod {
 	 * Declare local type variable <T> before the return type of the method
 	 * */
 	public static <T> List<T> arrayToList(T[] array, List<T> list) {
-		for (T object : array) {
+		//Collections.addAll(list, array);
+		for(T object : array) {
 			list.add(object);
 		}
 		
@@ -24,7 +25,11 @@ public class GenericMethod {
 		List<Character> charList = arrayToList(charArray, new ArrayList<>());
 		List<Boolean> intList = arrayToList(boolArray, new ArrayList<>());
 		List<Integer> boolList = arrayToList(intArray, new ArrayList<>());
-		
+
+		System.out.println(charList);
+		System.out.println(intList);
+		System.out.println(boolList);
+
 //		List<String> wrongList = arrayToList(intArray, new ArrayList<>());
 //		System.out.println(wrongList.get(0));
 
